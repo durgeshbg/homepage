@@ -1,7 +1,7 @@
 {
-  "name": "webpack-template",
+  "name": "Homepage",
   "version": "1.0.0",
-  "description": "This is my template repository for webpack",
+  "description": "Homepage website",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --watch --config ./webpack/webpack.dev.js",
