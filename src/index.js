@@ -1,3 +1,4 @@
-export default function Test() {
-  return 'Testing';
-}
+import './style.css';
+import imageLoader from './DOM/imageSrcs';
+
+imageLoader();
