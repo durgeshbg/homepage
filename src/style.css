@@ -15,3 +15,8 @@
     'Helvetica Neue',
     sans-serif;
 }
+
+source,
+img {
+  width: 200px;
+}
