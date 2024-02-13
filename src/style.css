@@ -116,5 +116,35 @@ main h2 {
 }
 
 footer {
-  border: 1px solid red;
+  padding: 40px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8c52ff;
+  border-radius: 10px 10px 0px 0px;
+}
+
+footer .contact .text {
+  font-size: 1.5rem;
+  max-width: 45ch;
+}
+
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+footer picture img {
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.phone,
+.mail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bolder;
 }
