@@ -192,3 +192,34 @@ footer picture img {
     width: 150px;
   }
 }
+
+@media (max-width: 530px) {
+  header {
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  header picture img {
+    width: 250px;
+  }
+
+  main h2 {
+    font-size: 2rem;
+  }
+  .project {
+    width: 250px;
+    height: 300px;
+    gap: 10px;
+    padding: 20px;
+  }
+  .project .screenshot img {
+    width: 200px;
+  }
+
+  footer {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    height: 500px;
+  }
+}
