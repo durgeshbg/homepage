@@ -39,8 +39,8 @@ header h1 {
 header picture {
   position: relative;
 }
-header img {
-  max-width: 380px;
+header picture img {
+  width: 480px;
   border-radius: 5px;
 }
 .about h3 {
@@ -137,7 +137,7 @@ footer .contact {
 }
 
 footer picture img {
-  max-width: 300px;
+  width: 400px;
   border-radius: 5px;
 }
 
@@ -147,4 +147,24 @@ footer picture img {
   align-items: center;
   gap: 10px;
   font-weight: bolder;
+}
+
+@media (max-width: 1100px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  .about h3 {
+    font-size: 2em;
+  }
+  header picture img {
+    width: 300px;
+  }
+  .about .text {
+    font-size: 20px;
+    padding: 40px;
+  }
+
+  footer picture img {
+    width: 250px;
+  }
 }
