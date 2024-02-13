@@ -26,10 +26,12 @@ function imageLoader() {
   document.querySelector('#profile-pc').src = profilePC;
   document.querySelector('#profile-tablet').srcset = profileTablet;
   document.querySelector('#profile-mobile').srcset = profileMobile;
+  document.querySelector('#profile-mobile-ss').srcset = profileTablet;
 
   document.querySelector('#contact-pc').src = contactPC;
   document.querySelector('#contact-tablet').srcset = contactTablet;
   document.querySelector('#contact-mobile').srcset = contactMobile;
+  document.querySelector('#contact-mobile-ss').srcset = contactTablet;
 }
 
 function iconLoader() {
