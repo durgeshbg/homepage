@@ -1,4 +1,4 @@
 import './style.css';
-import imageLoader from './DOM/imageSrcs';
+import assetLoader from './DOM/assetLoader';
 
-imageLoader();
+assetLoader();
