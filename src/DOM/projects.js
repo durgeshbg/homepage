@@ -7,8 +7,15 @@ import rpsSS from '../assets/screenshots/rock-paper-scissors.png';
 import calculatorSS from '../assets/screenshots/calculator.png';
 import tttSS from '../assets/screenshots/tic-tac-toe.png';
 import adminSS from '../assets/screenshots/admin-dashboard.png';
+import cvappSS from '../assets/screenshots/cv-app.png';
 
 const data = {
+  'CV Builder': {
+    link: 'https://durgeshbg-cv-app.netlify.app/',
+    code: 'https://github.com/durgeshbg/cv-app',
+    description: 'CV Builder Web Application',
+    screenshot: cvappSS,
+  },
   'Battle Ship': {
     link: 'https://durgeshbg.github.io/battleship',
     code: 'https://github.com/durgeshbg/battleship',
