@@ -8,8 +8,15 @@ import calculatorSS from '../assets/screenshots/calculator.png';
 import tttSS from '../assets/screenshots/tic-tac-toe.png';
 import adminSS from '../assets/screenshots/admin-dashboard.png';
 import cvappSS from '../assets/screenshots/cv-app.png';
+import memSS from '../assets/screenshots/memSS.png';
 
 const data = {
+  Poképick: {
+    link: 'https://durgeshbg-memory-card-game.netlify.app/',
+    code: 'https://github.com/durgeshbg/memory-card-game',
+    description: 'A memory card game based on pokémon.',
+    screenshot: memSS,
+  },
   'CV Builder': {
     link: 'https://durgeshbg-cv-app.netlify.app/',
     code: 'https://github.com/durgeshbg/cv-app',
