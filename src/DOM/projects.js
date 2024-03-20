@@ -8,9 +8,16 @@ import calculatorSS from '../assets/screenshots/calculator.png';
 import tttSS from '../assets/screenshots/tic-tac-toe.png';
 import adminSS from '../assets/screenshots/admin-dashboard.png';
 import cvappSS from '../assets/screenshots/cv-app.png';
-import memSS from '../assets/screenshots/memSS.png';
+import memSS from '../assets/screenshots/mem.png';
+import shopSS from '../assets/screenshots/shopping-cart.png';
 
 const data = {
+  ShopIt: {
+    link: 'https://durgeshbg-shopping-cart.netlify.app/',
+    code: 'https://github.com/durgeshbg/shopping-cart',
+    description: 'A basic Ecommerce website.',
+    screenshot: shopSS,
+  },
   Poképick: {
     link: 'https://durgeshbg-memory-card-game.netlify.app/',
     code: 'https://github.com/durgeshbg/memory-card-game',
